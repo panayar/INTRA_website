@@ -1,0 +1,26 @@
+@font-face {
+    font-family: fontmedium;
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: fontsemibold;
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+
+.fontMedium {
+    font-family: fontmedium;
+    font-size: 15px !important;
+    color: #263F56 !important;
+}
+
+.fontTitle {
+    font-family: fontsemibold;
+    font-size: 20px;
+    color: #263F56 !important;
+}
+
+.fontSemiBold {
+    font-family: fontsemibold;
+    color: #263F56 !important;
+}

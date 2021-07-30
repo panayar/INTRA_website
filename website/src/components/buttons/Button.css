@@ -1,0 +1,46 @@
+@font-face {
+    font-family: fontmedium;
+    src: url(../../fonts/Montserrat-Medium.ttf);
+}
+
+.intraDarkBtn {
+    font-family: fontmedium ;
+    padding: auto;
+    width: 150px;
+    height: 40px;
+    background-color: #263F56;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    font-size: 13px;
+}
+
+.intraDarkBtn:hover {
+    font-family: fontmedium ;
+    transition: 0.3s;
+    background-color: #788897;
+    color: #34475B;
+}
+
+.intraLightBtn {
+    font-family: fontmedium ;
+    padding: auto;
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color: #263F56;
+    border-radius: 6px;
+    border: 1px solid #263F56;
+    font-size: 13px;
+}
+
+.margin {
+    margin-right: 15px;
+}
+
+.intraLightBtn:hover {
+    font-family: fontmedium ;
+    transition: 0.3s;
+    background-color: #263F56;
+    color: white;
+}
