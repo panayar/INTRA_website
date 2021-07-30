@@ -24,3 +24,17 @@
     font-family: fontsemibold;
     color: #263F56 !important;
 }
+
+h4 {
+    color: #263F56 ;
+    font-family: fontsemibold ;
+}
+
+p {
+    color: #263F56 ;
+    font-family: fontmedium;
+}
+
+.text-green {
+  color: #54D19E !important;   
+}

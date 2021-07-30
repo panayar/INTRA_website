@@ -2,7 +2,7 @@
     padding: 25px;
     border-radius: 27px;
     width: 100%;
-    height: 550px;
+    height: auto;
     background-image: url(../../assets/img/bgPicture.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,6 +14,26 @@
     justify-content: center;
 }
 
-.space{
-    line-height: 20px !important;
+.block {
+    height: 70px;
+    position: relative; 
+  }
+
+.block:after { 
+    content: '';
+    position: absolute;
+    border-left: 1px solid rgba(112, 112, 112, 0.5);
+    right: -10px; 
+    height: 50%; 
+    margin-top: -60px;
+  }
+
+.hide {
+  display: block;
+}
+
+@media only screen and  (max-width: 990px){
+    .hide {
+        display: none !important;
+    }
 }

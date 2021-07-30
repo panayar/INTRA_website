@@ -44,3 +44,11 @@
     background-color: #263F56;
     color: white;
 }
+
+
+@media only screen and  (max-width : 388px){
+    .margin {
+        margin-right: 0px;
+        margin-bottom: 5px;
+    }
+}
