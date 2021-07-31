@@ -4,9 +4,9 @@ import Hand from "../../assets/img/handWithPhone.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Banner.css";
 
-function Banner() {
+function Banner(props) {
   return (
-    <div className="bg">
+    <div className={props.bg}>
       <div className="row">
         <div className="col-lg-6 col-md-12 col-sm-12 align ">
           <h1 className="fontSemiBold">
@@ -29,15 +29,15 @@ function Banner() {
 
           <div className="row text-center">
             <div className="col block">
-              <h4>100M</h4>
+              <h3>100M</h3>
               <p>Pre Sale Token</p>
             </div>
             <div className="col block">
-              <h4>250</h4>
+              <h3>250</h3>
               <p>Total Supply</p>
             </div>
             <div className="col ">
-              <h4 className="text-green">250</h4>
+              <h3 className="text-green">250</h3>
               <p>Market Cap</p>
             </div>
           </div>
