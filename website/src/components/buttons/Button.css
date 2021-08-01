@@ -3,6 +3,25 @@
     src: url(../../fonts/Montserrat-Medium.ttf);
 }
 
+.intraBigDarkBtn {
+    font-family: fontmedium ;
+    padding: 10px;
+    width: auto;
+    height: 40px;
+    background-color: #263F56;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    font-size: 13px;
+}
+
+.intraBigDarkBtn:hover {
+    font-family: fontmedium ;
+    transition: 0.3s;
+    background-color: #788897;
+    color: #34475B;
+}
+
 .intraDarkBtn {
     font-family: fontmedium ;
     padding: auto;

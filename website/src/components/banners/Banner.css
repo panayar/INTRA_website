@@ -1,5 +1,3 @@
-
-
 .bg {
   padding: 25px;
   border-radius: 27px;
@@ -10,6 +8,34 @@
   background-size: cover;
   object-fit: cover;
 }
+
+.bgBannerSmallOne {
+  text-align: center;
+  padding: 25px;
+  border-radius: 27px;
+  width: 100%;
+  margin-top: 10px;
+  height: auto;
+  background-image: url(../../assets/img/bgSmBannerOne.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+
+}
+
+.bgBannerSmallTwo {
+  text-align: center;
+  padding: 25px;
+  border-radius: 27px;
+  width: 100%;
+  margin-top: 10px;
+  height: auto;
+  background-image: url(../../assets/img/bgSmBannerTwo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
 
 .align {
   margin-top: 20px;
@@ -59,6 +85,21 @@
   object-fit: cover;
 }
 
+
+.infobgBn {
+
+  text-align: center;
+  padding: 25px;
+  border-radius: 27px;
+  width: 100%;
+  height: auto;
+  background-image: url(../../assets/img/bgBannerThree.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+
+}
+
 .spacing {
   margin-top: 4%;
   margin-bottom: 4%;
@@ -81,8 +122,22 @@
   text-align: center;
 }
 .secciones{
-  margin-left: 10px;
-  margin-right: 10px
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px
+}
+ 
+@media only screen and (max-width: 990px) {
+  .hide {
+    display: none !important;
+  }
+
+  .align {
+    text-align: center;
+  }
+
 }
 
 @media  only screen and (max-width: 480px) {
