@@ -1,10 +1,45 @@
-import React from "react";
+import React, { useState,useEffect } from "react";
 import Button from "../buttons/Button";
 import Hand from "../../assets/img/handWithPhone.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Banner.css";
 
+let numInicial = 0;
 function Banner(props) {
+  const [counterOne, setCounterOne] = React.useState(0)
+  const [counterTwo, setCounterTwo] = React.useState(0)
+  const [counterThree, setCounterThree] = React.useState(0)
+  const [messageButton, setMessageButton] = React.useState("Buy Token");
+
+  let funContador = (numMax, vel, setCount) => {
+      let upCounter = setInterval(() => {
+        numInicial += 1;
+        setCount(numInicial)
+        if (numInicial >= numMax) {
+          setCount(numMax)
+          clearInterval(upCounter)
+        }
+      }, vel)
+  }
+
+
+
+  const changeMessage = () => {
+    setMessageButton("buy for 0.00$")
+  }
+  const changeMessage2 = () => {
+    setMessageButton("Buy Token")
+  }
+
+  window.onload = () =>{
+    funContador(100, 15, setCounterOne);
+    numInicial = 0;
+    funContador(250, 4, setCounterTwo);
+    numInicial = 0;
+    funContador(250, 4, setCounterThree);
+  }
+
+
   return (
     <div className={props.bg}>
       <div className="row">
@@ -19,7 +54,7 @@ function Banner(props) {
           <br></br>
           <div className="row ">
             <div className="col-12 fontSemiBold">
-              <Button message="Buy Token" style="intraLightBtn margin" />
+              <Button style="intraLightBtn fourth" function2={changeMessage2} function={changeMessage} message={messageButton} />
               <Button message="See Whitepaper" style="intraDarkBtn " />
             </div>
           </div>
@@ -28,15 +63,15 @@ function Banner(props) {
 
           <div className="row text-center">
             <div className="col block">
-              <h3>100M</h3>
+              <h3>{counterOne}M</h3>
               <p>Pre Sale Token</p>
             </div>
             <div className="col block">
-              <h3>250</h3>
+              <h3>{counterTwo}M</h3>
               <p>Total Supply</p>
             </div>
             <div className="col ">
-              <h3 className="text-green">250</h3>
+              <h3 className="text-green">{counterThree}M</h3>
               <p>Market Cap</p>
             </div>
           </div>
