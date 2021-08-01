@@ -60,7 +60,7 @@ function InfoBanner(props) {
           </section>
           <h1 className={props.space}>:</h1>
           <section className={props.space}>
-            <h1>{timerMinutes}5</h1>
+            <h1>{timerMinutes}</h1>
             <p>Minutos</p>
           </section>
         </div>
