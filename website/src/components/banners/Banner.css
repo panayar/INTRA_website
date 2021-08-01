@@ -1,3 +1,5 @@
+
+
 .bg {
   padding: 25px;
   border-radius: 27px;
@@ -16,6 +18,10 @@
 
 .align-right {
   text-align: right !important;
+}
+
+.align-center {
+  text-align: center;
 }
 
 .block {
@@ -54,8 +60,8 @@
 }
 
 .spacing {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
 
 .space {
@@ -63,42 +69,26 @@
   margin-bottom: 5px;
 }
 
+.imgSpace {
+  margin-bottom: 80px;
+}
+
 .bannerText {
   text-align: right;
 }
-
-#timer{
-
-  display:grid;
-  text-align:center;
-  grid-template-columns: repeat(7,1fr);
+.timer {
+  justify-content: center;
+  text-align: center;
 }
-@media  screen and (max-width: 480px) {
-  #timer{
-    margin-left: 2em;
-    margin-right: 2em;
-    padding: 3em,3em;
-  }
+.secciones{
+  margin-left: 10px;
+  margin-right: 10px
 }
 
-@media only screen and (max-width: 990px) {
-  .hide {
-    display: none !important;
-  }
-  .align {
-    text-align: center;
-  }
-
-}
-
-@media only screen and (max-width: 760px) {
-  .bannerText {
-    text-align: justify !important;
-  }
-}
-
-@media only screen and (max-width: 385px) {
-  .space {
-    margin-right: 0px !important;
+@media  only screen and (max-width: 480px) {
+  #timer div:last-child {
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+    padding: 3em,3em !important;
   }
 }

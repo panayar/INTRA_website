@@ -25,21 +25,29 @@
     color: #263F56 !important;
 }
 
-h4, h1, h2 , h3 , h5, h6 {
-    color: #263F56 ;
-    font-family: fontsemibold ;
+h4,
+h1,
+h2,
+h3,
+h5,
+h6 {
+    color: #263F56;
+    font-family: fontsemibold;
 }
 
-p, a {
-    color: #263F56 ;
+p,
+a {
+    color: #263F56;
     font-family: fontmedium;
-    font-size: 15px;
 }
 
 .text-green {
-  color: #54D19E !important;   
+    color: #54D19E !important;
 }
 
-.centrar{
-    margin: 0 auto;
+.centrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
 }

@@ -23,10 +23,27 @@
         "fourthBanner": [{
             "title": "About Our Currency",
             "description": "The INTRA token is the native token of our platform developed in the Binance Smart Chain network, through it, holders will be able to play our VideoGames and receive rewards for completing missions, earn profits with the use of stacking pool and farming, use it as a means of payment to exchange NFTs, trade cryptos in our Swap."
+        }],
+
+        "fithBanner": [{
+            "title": "DeFi",
+            "textOne": [{
+                "title": "Intra Swap",
+                "description": "Dentro de nuestras plataforma podran realizar trade de criptoactivos al mejor precio de la red y las comisiones mas bajas."
+            }],
+            "textTwo": [{
+                "title": "Yield Farming",
+                "description": "Crearemos una piscina de farming para que puedas proveer liquides que será utilizado en nuestro swap y de esta manera obtener ganancias con las comisiones."
+            }],
+            "textThree": [{
+                "title": "Stacking",
+                "description": "Los holders de INTRA tendran la posibilidad de realizar stacking con porcentajes de alto rendimiento Anual, obtener ganancias con nuestro token y con tokens asociados al proyecto."
+            }],
+            "textFour": [{
+                "title": "I.D.O",
+                "description": "INTRA contará con una plataforma de Oferta Inicial De Tokens para impulsar la salida al mercado de nuevos proyectos emergentes, evaluados previamente por nuestro staff de profesionales."
+            }]
         }]
-
-
-
 
     }],
 

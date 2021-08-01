@@ -12,7 +12,7 @@ function InfoBanner(props) {
   let interval = useRef();
 
   const startTimer = () => {
-    const countdownDate = new Date('Oct 06 21 00:00:00').getTime();
+    const countdownDate = new Date('Aug 12 21 00:00:00').getTime();
     interval = setInterval(() => {
       const now = new Date().getTime();
       const distance = countdownDate - now;
@@ -44,30 +44,30 @@ function InfoBanner(props) {
 
   return (
     <div className={props.bg}>
-      <img src={props.img} className="space" />
+      <img src={props.img} />
       <h2>{props.title}</h2>
       <h5>{props.subtitle}</h5>
       <p>{props.description}</p>
-      <div className={props.timer} id="timer" >
-          <section>
+      <div className={props.timer}  >
+          <section className={props.space}>
             <h1>{timerDays}</h1>
             <p>Dias</p>
           </section>
-          <h1>:</h1>
-          <section>
+          <h1 className={props.space}>:</h1>
+          <section className={props.space}>
             <h1>{timerHours}</h1>
             <p>Horas</p>
           </section>
-          <h1>:</h1>
-          <section>
+          <h1 className={props.space}>:</h1>
+          <section className={props.space}>
             <h1>{timerMinutes}</h1>
             <p>Minutos</p>
           </section>
         </div>
 
-      <Button message={props.btnMessage} style={props.btnStyle} />
-      <br></br>
-      <br></br>
+        <Button message={props.btnMessage} style={props.btnStyle} />
+        <br></br>
+        <br></br>
     </div >
   );
 }

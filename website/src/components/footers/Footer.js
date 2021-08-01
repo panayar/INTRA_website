@@ -16,27 +16,27 @@ function Footer(props) {
           <div className="row align-right">
             <div className="col-lg-4 col-md-4 col-sm-12 mt-4 ">
               <h5>Support</h5>
-              <a>FAQ'S</a>
+              <a className="textFooter">FAQ'S</a>
               <br></br>
-              <a>Contact Us</a>
+              <a className="textFooter">Contact Us</a>
               <br></br>
-              <a>Privacy Policy</a>
+              <a className="textFooter">Privacy Policy</a>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-12 mt-4 ">
               <h5>Company</h5>
-              <a>Why INTRA Token?</a>
+              <a className="textFooter">Why INTRA Token?</a>
               <br></br>
-              <a>Capital</a>
+              <a className="textFooter">Capital</a>
               <br></br>
-              <a>Security</a>
+              <a className="textFooter">Security</a>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-12 mt-4 ">
               <h5>About</h5>
-              <a>About Us</a>
+              <a className="textFooter">About Us</a>
               <br></br>
-              <a>Features</a>
+              <a className="textFooter">Features</a>
               <br></br>
-              <a>News blog</a>
+              <a className="textFooter">News blog</a>
             </div>
           </div>
         </div>
