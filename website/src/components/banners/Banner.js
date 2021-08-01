@@ -1,7 +1,6 @@
 import React, { useState,useEffect } from "react";
 import Button from "../buttons/Button";
 import Hand from "../../assets/img/handWithPhone.png";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./Banner.css";
 
 let numInicial = 0;
@@ -52,7 +51,7 @@ function Banner(props) {
           <br></br>
           <div className="row ">
             <div className="col-12 fontSemiBold">
-              <Button style="intraLightBtn space" function2={changeMessage2} function={changeMessage} message={messageButton} />
+              <Button style="intraLightBtn fourth space" function2={changeMessage2} function={changeMessage} message={messageButton} />
               <Button message="See Whitepaper" style="intraDarkBtn " />
             </div>
           </div>

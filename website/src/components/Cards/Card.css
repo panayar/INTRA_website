@@ -12,8 +12,9 @@
     background-color: #E8F6FF;
     border-radius: 27px;
     padding: 20px;
+    margin-top: 10px;
 }
-
+ 
 
 .cardText h6, p {
     font-size: 12px !important;

@@ -1,6 +1,4 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./Banner.css";
 
 function BannerText(props) {
   return (
@@ -10,7 +8,7 @@ function BannerText(props) {
           <h2>{props.title}</h2>
         </div>
         <div className="col-lg-6 col-sm-12 col-md-6  bannerText">
-          <p>{props.description}</p>
+          <p className="fontMedium">{props.description}</p>
         </div>
       </div>
     </div>
