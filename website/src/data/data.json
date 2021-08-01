@@ -43,6 +43,22 @@
                 "title": "I.D.O",
                 "description": "INTRA contará con una plataforma de Oferta Inicial De Tokens para impulsar la salida al mercado de nuevos proyectos emergentes, evaluados previamente por nuestro staff de profesionales."
             }]
+        }],
+
+        "sixBanner": [{
+            "title": "Presale para empresas",
+            "description": "Be the first to know about INTRA Currency presale in real time in every country",
+            "btn": "Quiero que me contacten"
+        }],
+
+        "miniBannerOne": [{
+            "text": "Bienvenido a nuestra comunidad, ya somos mas de 500 en nuestro grupo de Telegram",
+            "btn" : "Unirme"
+
+        }],
+        "miniBannerTwo": [{
+            "text": "Bienvenido a nuestra comunidad, ya somos mas de 500 en nuestro grupo de Telegram",
+            "btn" : "Unirme"
         }]
 
     }],

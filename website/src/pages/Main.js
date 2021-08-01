@@ -9,11 +9,14 @@ import dataPage from "./../data/data.json";
 import Cardsm from "../components/Cards/SmallCard";
 import BigBanner from "../components/banners/BigBanner";
 import BannerLogos from "../components/banners/BannerLogos";
+import SmallBanner from "../components/banners/SmallBanner";
 
 import IconLibrary from "./../assets/img/iconOne.svg";
 import IconWallet from "./../assets/img/walletIcon.svg";
 import IconNft from "./../assets/img/nftIcon.svg";
 import IconSwap from "./../assets/img/swapIcon.svg";
+import IconDiscord from "./../assets/img/discord.png";
+import IconTelegram from "./../assets/img/telegram.png";
 import Man from "./../assets/img/sitMan.png";
 import "../css/global.css";
 
@@ -113,8 +116,40 @@ function Main() {
             />
           </div>
           <div className="col-12">
-            <BannerLogos/>
+            <BannerLogos style="row infoLightBg centrado" />
           </div>
+          <div className="col-12">
+            <InfoBanner
+              title={dataPage.mainPage[0].sixBanner[0].title}
+              description={dataPage.mainPage[0].sixBanner[0].description}
+              bg="infobgBn spacing"
+              btnStyle="intraBigDarkBtn"
+              btnMessage={dataPage.mainPage[0].sixBanner[0].btn}
+              timer="d-none"
+            />
+          </div>
+          <div className="col-12 align-center">
+            <h3>Bienvenido a nuestra comunidad</h3>
+          </div>
+          <div className="col-lg-6 col-md-6 col-sm-12">
+            <SmallBanner
+              img={IconTelegram}
+              bg="bgBannerSmallOne"
+              description={dataPage.mainPage[0].miniBannerOne[0].text}
+              btnStyle="intraLightBtn"
+              btnMessage={dataPage.mainPage[0].miniBannerOne[0].btn}
+            />
+          </div>
+          <div className="col-lg-6 col-md-6 col-sm-12">
+            <SmallBanner
+              img={IconDiscord}
+              bg="bgBannerSmallTwo"
+              description={dataPage.mainPage[0].miniBannerTwo[0].text}
+              btnStyle="intraLightBtn"
+              btnMessage={dataPage.mainPage[0].miniBannerTwo[0].btn}
+            />
+          </div>
+
           <div className="col-12">
             <Footer bg="infoLightBg" />
           </div>
