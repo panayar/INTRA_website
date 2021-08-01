@@ -1,7 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap";
 import "../buttons/Button.css";
-import "../Navs/Nav.css";
 import React from "react";
 import Button from "../buttons/Button";
 
@@ -40,9 +39,9 @@ export default function Nav() {
                 <a className="nav-link fontMedium">Contact</a>
               </li>
             </ul>
-            <form className="d-flex ">
+           
               <Button message="conectar wallet" style="intraDarkBtn" />
-            </form>
+           
           </div>
         </div>
       </nav>

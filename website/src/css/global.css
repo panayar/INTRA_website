@@ -25,14 +25,15 @@
     color: #263F56 !important;
 }
 
-h4 {
+h4, h1, h2 , h3 , h5 {
     color: #263F56 ;
     font-family: fontsemibold ;
 }
 
-p {
+p, a {
     color: #263F56 ;
     font-family: fontmedium;
+    font-size: 15px;
 }
 
 .text-green {

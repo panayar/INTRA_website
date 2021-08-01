@@ -5,8 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./Banner.css";
 
 let numInicial = 0;
-let num2 = 0;
-function Banner() {
+function Banner(props) {
   const [counterOne, setCounterOne] = React.useState(0)
   const [counterTwo, setCounterTwo] = React.useState(0)
   const [counterThree, setCounterThree] = React.useState(0)
@@ -42,7 +41,7 @@ function Banner() {
 
 
   return (
-    <div className="bg">
+    <div className={props.bg}>
       <div className="row">
         <div className="col-lg-6 col-md-12 col-sm-12 align ">
           <h1 className="fontSemiBold">
@@ -65,15 +64,15 @@ function Banner() {
 
           <div className="row text-center">
             <div className="col block">
-              <h4>{counterOne}M</h4>
+              <h3>{counterOne}M</h3>
               <p>Pre Sale Token</p>
             </div>
             <div className="col block">
-              <h4>{counterTwo}M</h4>
+              <h3>{counterTwo}M</h3>
               <p>Total Supply</p>
             </div>
             <div className="col ">
-              <h4 className="text-green">{counterThree}M</h4>
+              <h3 className="text-green">{counterThree}M</h3>
               <p>Market Cap</p>
             </div>
           </div>
