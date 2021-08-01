@@ -59,7 +59,8 @@
 }
 
 .space {
-  margin-bottom: 80px;
+  margin-right: 10px !important;
+  margin-bottom: 5px;
 }
 
 .bannerText {
@@ -79,5 +80,11 @@
 @media only screen and (max-width: 760px) {
   .bannerText {
     text-align: justify !important;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  .space {
+    margin-right: 0px !important;
   }
 }

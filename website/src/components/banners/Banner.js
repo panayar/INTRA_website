@@ -22,8 +22,6 @@ function Banner(props) {
       }, vel)
   }
 
-
-
   const changeMessage = () => {
     setMessageButton("buy for 0.00$")
   }
@@ -32,11 +30,11 @@ function Banner(props) {
   }
 
   window.onload = () =>{
-    funContador(100, 15, setCounterOne);
+    funContador(100, 20, setCounterOne);
     numInicial = 0;
-    funContador(250, 4, setCounterTwo);
+    funContador(250, 5, setCounterTwo);
     numInicial = 0;
-    funContador(250, 4, setCounterThree);
+    funContador(250, 5, setCounterThree);
   }
 
 
@@ -54,7 +52,7 @@ function Banner(props) {
           <br></br>
           <div className="row ">
             <div className="col-12 fontSemiBold">
-              <Button style="intraLightBtn fourth" function2={changeMessage2} function={changeMessage} message={messageButton} />
+              <Button style="intraLightBtn space" function2={changeMessage2} function={changeMessage} message={messageButton} />
               <Button message="See Whitepaper" style="intraDarkBtn " />
             </div>
           </div>
