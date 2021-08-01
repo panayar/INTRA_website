@@ -53,12 +53,12 @@ function InfoBanner(props) {
             <h1>{timerDays}</h1>
             <p>Dias</p>
           </section>
-          <h1 className={props.space}>:</h1>
+          <h1 >:</h1>
           <section className={props.space}>
             <h1>{timerHours}</h1>
             <p>Horas</p>
           </section>
-          <h1 className={props.space}>:</h1>
+          <h1 >:</h1>
           <section className={props.space}>
             <h1>{timerMinutes}</h1>
             <p>Minutos</p>
