@@ -10,12 +10,11 @@ function Banner(props) {
       <div className="row">
         <div className="col-lg-6 col-md-12 col-sm-12 align ">
           <h1 className="fontSemiBold">
-            Animate Your ideas, Design Better Apps
+           {props.title}
           </h1>
           <br></br>
           <p className="fontMedium">
-            Make it easy to desing animated and interactive user interfaces,
-            Work done for an upcoming NFT marketplace catered to musicians.
+           {props.description}
           </p>
           <br></br>
           <div className="row ">

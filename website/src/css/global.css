@@ -25,7 +25,7 @@
     color: #263F56 !important;
 }
 
-h4, h1, h2 , h3 , h5 {
+h4, h1, h2 , h3 , h5, h6 {
     color: #263F56 ;
     font-family: fontsemibold ;
 }
@@ -38,4 +38,8 @@ p, a {
 
 .text-green {
   color: #54D19E !important;   
+}
+
+.centrar{
+    margin: 0 auto;
 }

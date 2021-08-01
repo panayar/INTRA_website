@@ -1,0 +1,32 @@
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.small {
+    width: 16pc;
+    height: 250px;
+    background-color: #E8F6FF;
+    border-radius: 27px;
+    padding: 20px;
+}
+
+
+.cardText h6, p {
+    font-size: 12px !important;
+}
+
+@media screen and (max-width: 760px) {
+    
+    .small {
+        width: 100% !important;
+    }
+    .cardText {
+        text-align: center;
+    }
+    
+
+}

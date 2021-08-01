@@ -1,0 +1,59 @@
+{
+    "mainPage": [{
+
+
+        "firstBanner": [{
+            "titleBanner": "Animate Your ideas, Design Better Apps",
+            "descriptionBanner": "Make it easy to desing animated and interactive user interfaces, Work done for an upcoming NFT marketplace catered to musicians."
+        }],
+
+        "secondBanner": [{
+
+            "title": "Join The Presale",
+            "description": "Take part in our quest to support and get early access"
+
+        }],
+
+        "thirdBanner": [{
+
+            "title": "Presale started Jul 06, 2021 01:00 EST - End on May 14, 2021 - 13:00 EST"
+
+        }],
+
+        "fourthBanner": [{
+            "title": "About Our Currency",
+            "description": "The INTRA token is the native token of our platform developed in the Binance Smart Chain network, through it, holders will be able to play our VideoGames and receive rewards for completing missions, earn profits with the use of stacking pool and farming, use it as a means of payment to exchange NFTs, trade cryptos in our Swap."
+        }]
+
+
+
+
+    }],
+
+    "cards": [{
+
+        "smOne": {
+            "title": "Digital library of video games.",
+            "description": "This is an exclusive space for free access to video games of the most diverse genres, with the possibility of earning INTRA in the process."
+        },
+
+        "smTwo": {
+            "title": "Swap",
+            "description": "All users who have acquired INTRA or another cryptocurrency through mining will be able to swap it for the one they   they want. "
+        },
+
+        "smThree": {
+            "title": "Wallet",
+            "description": "This will be the interface where you will be able to manage your INTRA: send, receive or view your INTRA balance at any time."
+        },
+
+        "smFour": {
+            "title": "NFT's market",
+            "description": "A space designed exclusively for the commercialization of non-fungible tokens, where users can purchase collectibles"
+        }
+
+
+    }]
+
+
+}
