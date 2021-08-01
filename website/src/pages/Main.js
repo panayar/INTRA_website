@@ -48,7 +48,7 @@ function Main() {
             />
           </div>
           <div className="col-12">
-            <BannerText
+          <BannerText
               bg="infoLightBg spacing "
               title={dataPage.mainPage[0].fourthBanner[0].title}
               description={dataPage.mainPage[0].fourthBanner[0].description}

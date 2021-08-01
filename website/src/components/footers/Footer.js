@@ -42,9 +42,9 @@ function Footer(props) {
         </div>
       </div>
       <div className="col-12 text-center mt-4 mb-4 p-2">
-         <a ><img src={FacebookIcon} /></a>
-        <img className="spc" src={TwitterIcon} />
-        <img src={InstaIcon} />
+        <a target="blank" href="https://www.facebook.com/IntraTechnologyCo/" ><img className="spc" src={FacebookIcon} /></a>
+        <a target="blank" href="https://twitter.com/IntraTechnolog1/"> <img className="spc" src={TwitterIcon} /></a>
+        <a target="blank" href="https://instagram.com/intratechnology/">  <img className="spc" src={InstaIcon} /></a>
       </div>
     </div>
   );

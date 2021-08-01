@@ -67,6 +67,20 @@
   text-align: right;
 }
 
+#timer{
+
+  display:grid;
+  text-align:center;
+  grid-template-columns: repeat(7,1fr);
+}
+@media  screen and (max-width: 480px) {
+  #timer{
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 3em,3em;
+  }
+}
+
 @media only screen and (max-width: 990px) {
   .hide {
     display: none !important;
