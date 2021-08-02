@@ -49,13 +49,15 @@ function Main() {
           <div className="col-12">
             <InfoBanner
               subtitle={dataPage.mainPage[0].thirdBanner[0].title}
-              bg="infoImgBg spacing"
+              timer="d-flex timer"
+              space="secciones"
+              bg="infoImgBg spacing "
               btnStyle="intraDarkBtn"
               btnMessage="Suscribe"
             />
           </div>
           <div className="col-12">
-            <BannerText
+          <BannerText             
               bg="infoLightBg spacing "
               title={dataPage.mainPage[0].fourthBanner[0].title}
               description={dataPage.mainPage[0].fourthBanner[0].description}

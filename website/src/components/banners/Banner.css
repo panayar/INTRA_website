@@ -117,7 +117,15 @@
 .bannerText {
   text-align: right;
 }
-
+.timer {
+  justify-content: center;
+  text-align: center;
+}
+.secciones{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+ 
 @media only screen and (max-width: 990px) {
   .hide {
     display: none !important;
@@ -129,14 +137,10 @@
 
 }
 
-@media only screen and (max-width: 760px) {
-  .bannerText {
-    text-align: justify !important;
-  }
-}
-
-@media only screen and (max-width: 385px) {
-  .space {
-    margin-right: 0px !important;
+@media  only screen and (max-width: 480px) {
+  #timer div:last-child {
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+    padding: 3em,3em !important;
   }
 }
