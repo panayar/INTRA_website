@@ -9,7 +9,7 @@ export default function Nav() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light ">
         <div className="container">
-          <a className="navbar-brand fontTitle">INTRA</a>
+          <a className="navbar-brand fontTitle" href="https://github.com">INTRA</a>
           <button
             className="navbar-toggler"
             type="button"
@@ -24,19 +24,19 @@ export default function Nav() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
               <li className="nav-item">
-                <a className="nav-link fontMedium">Roadmap</a>
+                <a className="nav-link fontMedium" href="https://github.com">Roadmap</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link fontMedium">PreSale</a>
+                <a className="nav-link fontMedium" href="https://github.com">PreSale</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link fontMedium">DeFi</a>
+                <a className="nav-link fontMedium" href="https://github.com">DeFi</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link fontMedium">About Us</a>
+                <a className="nav-link fontMedium" href="https://github.com">About Us</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link fontMedium">Contact</a>
+                <a className="nav-link fontMedium" href="https://github.com">Contact</a>
               </li>
             </ul>
            

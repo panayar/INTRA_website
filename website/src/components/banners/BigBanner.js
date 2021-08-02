@@ -5,7 +5,7 @@ function BigBanner(props) {
   return (
     <div className={props.style}>
       <div className="col-lg-6 d-lg-block col-md-6 hide" align="center">
-        <img  src={props.img} />
+        <img alt={props.alt} src={props.img} />
       </div>
       <div className="col-lg-6 col-md-12 col-sm-12">
         <div className="row mt-5">
