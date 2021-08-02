@@ -18,6 +18,7 @@ import IconSwap from "./../assets/img/swapIcon.svg";
 import IconDiscord from "./../assets/img/discord.png";
 import IconTelegram from "./../assets/img/telegram.png";
 import Man from "./../assets/img/sitMan.png";
+import Wallet from "./../assets/img/Wallet.png";
 import "../css/global.css";
 
 function Main() {
@@ -147,6 +148,17 @@ function Main() {
               description={dataPage.mainPage[0].miniBannerTwo[0].text}
               btnStyle="intraLightBtn"
               btnMessage={dataPage.mainPage[0].miniBannerTwo[0].btn}
+            />
+          </div>
+          <div className="col-12">
+            <InfoBanner
+              img={Wallet}
+              bg="infoLightBg spacing"
+              subtitle={dataPage.mainPage[0].sevenBanner[0].title}
+              description={dataPage.mainPage[0].sevenBanner[0].description}
+              btnMessage={dataPage.mainPage[0].sevenBanner[0].btn}
+              timer="d-none"
+              btnStyle="intraBigDarkBtn"
             />
           </div>
 

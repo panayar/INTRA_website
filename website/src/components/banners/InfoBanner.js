@@ -15,7 +15,7 @@ function InfoBanner(props) {
         <p>Days</p>
       </div>
 
-      <Button message={props.btnMessage} style={props.btnStyle} />
+      <Button message={props.btnMessage} style={props.btnStyle}  />
       <br></br>
       <br></br>
     </div>

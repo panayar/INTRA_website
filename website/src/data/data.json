@@ -49,6 +49,12 @@
             "title": "Presale para empresas",
             "description": "Be the first to know about INTRA Currency presale in real time in every country",
             "btn": "Quiero que me contacten"
+        }], 
+        "sevenBanner" : [{
+
+            "title": "Conecta tu wallet",
+            "description" : "INTRA tiene soporte con mas de 20 brokers de wallet en el mundo",
+            "btn" : "Conectar wallet"
         }],
 
         "miniBannerOne": [{
