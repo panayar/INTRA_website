@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useRef, useEffect } from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Banner.css";
 import Button from "../buttons/Button";
@@ -44,10 +44,11 @@ function InfoBanner(props) {
 
   return (
     <div className={props.bg}>
-      <img src={props.img} />
+      <img  alt={props.alt}  className={props.imgspace} src={props.img} />
       <h2>{props.title}</h2>
       <h5>{props.subtitle}</h5>
-      <p>{props.description}</p>
+
+      <p className="fontMedium">{props.description}</p>
       <div className={props.timer}  >
           <section className={props.space}>
             <h1>{timerDays}</h1>

@@ -3,7 +3,6 @@ import "./Footer.css";
 import FacebookIcon from "../../assets/img/facebookIcon.png";
 import TwitterIcon from "../../assets/img/twitterIcon.png";
 import InstaIcon from "../../assets/img/instagramIcon.png";
-import { Linking } from 'react'
 
 function Footer(props) {
   return (
@@ -16,35 +15,37 @@ function Footer(props) {
           <div className="row align-right">
             <div className="col-lg-4 col-md-4 col-sm-12 mt-4 ">
               <h5>Support</h5>
-              <a className="textFooter">FAQ'S</a>
+              <a className="textFooter" href="https://github.com">FAQ'S</a>
               <br></br>
-              <a className="textFooter">Contact Us</a>
+              <a className="textFooter" href="https://github.com">Contact Us</a>
               <br></br>
-              <a className="textFooter">Privacy Policy</a>
+              <a className="textFooter" href="https://github.com">Privacy Policy</a>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-12 mt-4 ">
               <h5>Company</h5>
-              <a className="textFooter">Why INTRA Token?</a>
+              <a className="textFooter" href="https://github.com">Why INTRA Token?</a>
               <br></br>
-              <a className="textFooter">Capital</a>
+              <a className="textFooter" href="https://github.com">Capital</a>
               <br></br>
-              <a className="textFooter">Security</a>
+              <a className="textFooter" href="https://github.com">Security</a>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-12 mt-4 ">
               <h5>About</h5>
-              <a className="textFooter">About Us</a>
+              <a className="textFooter" href="https://github.com">About Us</a>
               <br></br>
-              <a className="textFooter">Features</a>
+              <a className="textFooter" href="https://github.com">Features</a>
               <br></br>
-              <a className="textFooter">News blog</a>
+              <a className="textFooter" href="https://github.com">News blog</a>
             </div>
           </div>
         </div>
       </div>
+    
       <div className="col-12 text-center mt-4 mb-4 p-2">
-        <a target="blank" href="https://www.facebook.com/IntraTechnologyCo/" ><img className="spc" src={FacebookIcon} /></a>
-        <a target="blank" href="https://twitter.com/IntraTechnolog1/"> <img className="spc" src={TwitterIcon} /></a>
-        <a target="blank" href="https://instagram.com/intratechnology/">  <img className="spc" src={InstaIcon} /></a>
+        <a target="blank" href="https://www.facebook.com/IntraTechnologyCo/" ><img alt={props.alt} className="spc" src={FacebookIcon} /></a>
+        <a target="blank" href="https://www.instagram.com/intratechnology_/" ><img alt={props.alt} className="spc" src={InstaIcon} /></a>
+        <a target="blank" href="https://twitter.com/IntraTechnolog1" ><img alt={props.alt} className="spc" src={TwitterIcon} /></a>
+        
       </div>
     </div>
   );

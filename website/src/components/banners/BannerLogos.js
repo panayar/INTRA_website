@@ -16,28 +16,28 @@ function BannerLogos(props) {
         <h2 className="align-center">Supported Coins</h2>
       </div>
       <div className="col-auto">
-        <img src={Bitcoin} />
+        <img alt={props.alt}  src={Bitcoin} />
       </div>
       <div className="col-auto">
-        <img src={Ethereum} />
+        <img alt={props.alt}  src={Ethereum} />
       </div>
       <div className="col-auto">
-        <img src={Cakecoin} />
+        <img alt={props.alt}  src={Cakecoin} />
       </div>
       <div className="col-auto">
-        <img src={Solana} />
+        <img alt={props.alt}  src={Solana} />
       </div>
       <div className="col-auto">
-        <img src={Polkadot} />
+        <img alt={props.alt}  src={Polkadot} />
       </div>
       <div className="col-auto">
-        <img src={Safemoon} />
+        <img alt={props.alt}  src={Safemoon} />
       </div>
       <div className="col-auto">
-        <img src={Matic} />
+        <img alt={props.alt}  src={Matic} />
       </div>
       <div className="col-auto">
-        <img src={Computer} />
+        <img alt={props.alt}  src={Computer} />
       </div>
     </div>
   );

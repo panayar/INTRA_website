@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React from "react";
 import Button from "../buttons/Button";
 import Hand from "../../assets/img/handWithPhone.png";
 import "./Banner.css";
@@ -74,12 +74,13 @@ function Banner(props) {
           </div>
         </div>
         <div className="col-lg-6 d-lg-block col-md-6 hide" align="center">
-          <img width="80%" src={Hand} />
+          <img alt={props.alt} width="80%" src={Hand} />
         </div>
       </div>
 
     </div>
   );
 }
+
 
 export default Banner;

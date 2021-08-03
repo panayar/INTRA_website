@@ -13,6 +13,7 @@ import SmallBanner from "../components/banners/SmallBanner";
 import BigCard from "../components/Cards/BigCard";
 import Carousel from "../components/Carousel/Carousel";
 
+
 import IconLibrary from "./../assets/img/iconOne.svg";
 import IconWallet from "./../assets/img/walletIcon.svg";
 import IconNft from "./../assets/img/nftIcon.svg";
@@ -46,6 +47,7 @@ function Main() {
               description={dataPage.mainPage[0].secondBanner[0].description}
               btnStyle="d-none"
               timer="d-none"
+              imgspace = "imgSpace"
             />
           </div>
           <div className="col-12">
@@ -146,6 +148,7 @@ function Main() {
               description={dataPage.mainPage[0].miniBannerOne[0].text}
               btnStyle="intraLightBtn"
               btnMessage={dataPage.mainPage[0].miniBannerOne[0].btn}
+              btnLink = "https://t.me/IntraEcosystemGrupo"
             />
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12">
@@ -155,11 +158,13 @@ function Main() {
               description={dataPage.mainPage[0].miniBannerTwo[0].text}
               btnStyle="intraLightBtn"
               btnMessage={dataPage.mainPage[0].miniBannerTwo[0].btn}
+              btnLink = "https://discord.gg/GeMTVhSB"
             />
           </div>
           <div className="col-12">
             <InfoBanner
               img={Wallet}
+              imgspace = "imgSpace"
               bg="infoLightBg spacing"
               subtitle={dataPage.mainPage[0].sevenBanner[0].title}
               description={dataPage.mainPage[0].sevenBanner[0].description}
@@ -167,6 +172,9 @@ function Main() {
               timer="d-none"
               btnStyle="intraBigDarkBtn"
             />
+          </div>
+          <div className="col-12">
+            
           </div>
 
           <div className="col-12">
