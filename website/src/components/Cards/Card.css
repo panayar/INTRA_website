@@ -1,33 +1,52 @@
 .hide {
-    display: none;
+  display: none;
 }
 
 .show {
-    display: block;
+  display: block;
 }
 
 .small {
-    width: 16pc;
-    height: 250px;
-    background-color: #E8F6FF;
-    border-radius: 27px;
-    padding: 20px;
-    margin-top: 10px;
+  width: 16pc;
+  height: 250px;
+  background-color: #e8f6ff;
+  border-radius: 27px;
+  padding: 20px;
+  margin-top: 10px;
 }
- 
+.alinear-end{
+  text-align: end;
+}
+#contBigCard {
+  width: 23em;
+  height: 34em;
+  border-radius: 25px;
+  color: #707070;
+}
 
-.cardText h6, p {
-    font-size: 12px !important;
+#logoLinkedin {
+  background-color: #1177b7;
+  visibility: hidden;
+  justify-content: center;
+  padding: 20px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+#textoUnoDos{
+  margin-top: 25%;
+  line-height: 160%;
+}
+
+.cardText h6,
+p {
+  font-size: 12px !important;
 }
 
 @media screen and (max-width: 760px) {
-    
-    .small {
-        width: 100% !important;
-    }
-    .cardText {
-        text-align: center;
-    }
-    
-
+  .small {
+    width: 100% !important;
+  }
+  .cardText {
+    text-align: center;
+  }
 }

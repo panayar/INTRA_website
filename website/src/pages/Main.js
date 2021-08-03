@@ -10,6 +10,8 @@ import Cardsm from "../components/Cards/SmallCard";
 import BigBanner from "../components/banners/BigBanner";
 import BannerLogos from "../components/banners/BannerLogos";
 import SmallBanner from "../components/banners/SmallBanner";
+import BigCard from "../components/Cards/BigCard";
+import Carousel from "../components/Carousel/Carousel";
 
 import IconLibrary from "./../assets/img/iconOne.svg";
 import IconWallet from "./../assets/img/walletIcon.svg";
@@ -57,7 +59,7 @@ function Main() {
             />
           </div>
           <div className="col-12">
-          <BannerText             
+            <BannerText
               bg="infoLightBg spacing "
               title={dataPage.mainPage[0].fourthBanner[0].title}
               description={dataPage.mainPage[0].fourthBanner[0].description}
@@ -117,6 +119,9 @@ function Main() {
                 dataPage.mainPage[0].fithBanner[0].textFour[0].description
               }
             />
+          </div>
+          <div>
+            <Carousel bg="infoImgBg spacing " />
           </div>
           <div className="col-12">
             <BannerLogos style="row infoLightBg centrado" />

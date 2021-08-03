@@ -47,18 +47,6 @@ function InfoBanner(props) {
       <img src={props.img} />
       <h2>{props.title}</h2>
       <h5>{props.subtitle}</h5>
-<<<<<<< HEAD
-      <p className="fontMedium">{props.description}</p>
-      <div className={props.timer}>
-        <h1>12 : 08 : 02</h1>
-        <p>Days</p>
-      </div>
-
-      <Button message={props.btnMessage} style={props.btnStyle}  />
-      <br></br>
-      <br></br>
-    </div>
-=======
       <p>{props.description}</p>
       <div className={props.timer}  >
           <section className={props.space}>
@@ -81,7 +69,6 @@ function InfoBanner(props) {
         <br></br>
         <br></br>
     </div >
->>>>>>> 482c16ab4c03c57e33e8b207deaab11d33231d12
   );
 }
 
