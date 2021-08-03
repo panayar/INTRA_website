@@ -18,6 +18,13 @@ export default function Carousel(props) {
     nextArrow: nextArrow,
     prevArrow: backArrow,
   };
+  if(window.screen.width < "980"){
+    settings.slidesToShow = 2
+  }
+  if(window.screen.width < "600"){
+    settings.slidesToShow = 1
+  }
+  
   nextArrow=settings.nextArrow;
   backArrow=settings.prevArrow;
   const [fourCards, setFourCards] = React.useState([
