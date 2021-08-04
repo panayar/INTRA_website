@@ -11,12 +11,7 @@ import BigBanner from "../components/banners/BigBanner";
 import BannerLogos from "../components/banners/BannerLogos";
 import SmallBanner from "../components/banners/SmallBanner";
 import Carousel from "../components/Carousel/Carousel";
-<<<<<<< HEAD
 import MyCalendar from "../components/Calendar/calendar"
-=======
-import Accordion from "../components/accordions/Accordion";
-
->>>>>>> 54eb9ec13bc0cfd4b03ee9b82ffd1fd00f37cd2f
 
 import IconLibrary from "./../assets/img/iconOne.svg";
 import IconWallet from "./../assets/img/walletIcon.svg";
@@ -132,7 +127,7 @@ function Main() {
           </div>
       
           <div className="col-12">
-            <BannerLogos style="row infoLightBg centrado" />
+            <BannerLogos style="row infoLightBg centrado spacing" />
           </div>
           <div className="col-12">
             <InfoBanner
@@ -144,7 +139,7 @@ function Main() {
               timer="d-none"
             />
           </div>
-          <div className="col-12 align-center">
+          <div className="col-12 align-center spacing">
             <h3>Bienvenido a nuestra comunidad</h3>
           </div>
     
@@ -161,14 +156,14 @@ function Main() {
           <div className="col-lg-6 col-md-6 col-sm-12">
             <SmallBanner
               img={IconDiscord}
-              bg="bgBannerSmallTwo"
+              bg="bgBannerSmallTwo "
               description={dataPage.mainPage[0].miniBannerTwo[0].text}
               btnStyle="intraLightBtn"
               btnMessage={dataPage.mainPage[0].miniBannerTwo[0].btn}
               btnLink = "https://discord.gg/GeMTVhSB"
             />
           </div>
-          <div>
+          <div className="col-12 spacing">
           <MyCalendar/>
           </div>
           <div className="col-12">
