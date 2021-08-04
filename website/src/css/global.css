@@ -51,3 +51,7 @@ a {
     justify-content: center;
     min-height: 50vh;
 }
+
+.align-text{
+    text-align: left;
+}

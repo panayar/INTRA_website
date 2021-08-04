@@ -49,24 +49,67 @@
             "title": "Presale para empresas",
             "description": "Be the first to know about INTRA Currency presale in real time in every country",
             "btn": "Quiero que me contacten"
-        }], 
-        "sevenBanner" : [{
+        }],
+        "sevenBanner": [{
 
             "title": "Conecta tu wallet",
-            "description" : "INTRA tiene soporte con mas de 20 brokers de wallet en el mundo",
-            "btn" : "Conectar wallet"
+            "description": "INTRA tiene soporte con mas de 20 brokers de wallet en el mundo",
+            "btn": "Conectar wallet"
         }],
 
         "miniBannerOne": [{
             "text": "Bienvenido a nuestra comunidad, ya somos mas de 500 en nuestro grupo de Telegram",
-            "btn" : "Unirme"
+            "btn": "Unirme"
 
         }],
         "miniBannerTwo": [{
             "text": "Bienvenido a nuestra comunidad, ya somos mas de 500 en nuestro grupo de Telegram",
-            "btn" : "Unirme"
+            "btn": "Unirme"
         }]
 
+    }],
+
+    "SupportPage": [{
+
+        "titleInfoBanner": "Support"
+
+    }],
+
+    "SupportAccordion" : [{
+        "mainTitle" : "FAQ’S", 
+        "sections" : [{
+            "firstQuestion" : [{
+                "title" : "Question One",
+                "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            }],
+            "secondQuestion" : [{
+                "title" : "Question Two",
+                "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            }],
+            "thirdQuestion" : [{
+                "title" : "Question Three",
+                "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            }]
+        }]
+    }],
+
+
+    "ContactAccordion" : [{
+        "mainTitle" : "Contact Us", 
+        "sections" : [{
+            "firstQuestion" : [{
+                "title" : "Question One",
+                "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            }],
+            "secondQuestion" : [{
+                "title" : "Question Two",
+                "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            }],
+            "thirdQuestion" : [{
+                "title" : "Question Three",
+                "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            }]
+        }]
     }],
 
     "cards": [{
@@ -93,6 +136,5 @@
 
 
     }]
-
 
 }

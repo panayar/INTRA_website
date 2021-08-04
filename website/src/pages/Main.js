@@ -11,7 +11,12 @@ import BigBanner from "../components/banners/BigBanner";
 import BannerLogos from "../components/banners/BannerLogos";
 import SmallBanner from "../components/banners/SmallBanner";
 import Carousel from "../components/Carousel/Carousel";
+<<<<<<< HEAD
 import MyCalendar from "../components/Calendar/calendar"
+=======
+import Accordion from "../components/accordions/Accordion";
+
+>>>>>>> 54eb9ec13bc0cfd4b03ee9b82ffd1fd00f37cd2f
 
 import IconLibrary from "./../assets/img/iconOne.svg";
 import IconWallet from "./../assets/img/walletIcon.svg";
@@ -21,6 +26,7 @@ import IconDiscord from "./../assets/img/discord.png";
 import IconTelegram from "./../assets/img/telegram.png";
 import Man from "./../assets/img/sitMan.png";
 import Wallet from "./../assets/img/Wallet.png";
+import 'bootstrap';
 import "../css/global.css";
 
 function Main() {
@@ -121,9 +127,10 @@ function Main() {
               }
             />
           </div>
-          <div>
-            <Carousel bg="infoImgBg spacing " />
+          <div className="col-12">
+            <Carousel/>
           </div>
+      
           <div className="col-12">
             <BannerLogos style="row infoLightBg centrado" />
           </div>
@@ -140,6 +147,7 @@ function Main() {
           <div className="col-12 align-center">
             <h3>Bienvenido a nuestra comunidad</h3>
           </div>
+    
           <div className="col-lg-6 col-md-6 col-sm-12">
             <SmallBanner
               img={IconTelegram}
@@ -175,10 +183,6 @@ function Main() {
               btnStyle="intraBigDarkBtn"
             />
           </div>
-          <div className="col-12">
-            
-          </div>
-
           <div className="col-12">
             <Footer bg="infoLightBg" />
           </div>
