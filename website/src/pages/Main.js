@@ -170,7 +170,7 @@ function Main() {
             <InfoBanner
               img={Wallet}
               imgspace = "imgSpace"
-              bg="infoLightBg spacing"
+              bg="infobgBn spacing"
               subtitle={dataPage.mainPage[0].sevenBanner[0].title}
               description={dataPage.mainPage[0].sevenBanner[0].description}
               btnMessage={dataPage.mainPage[0].sevenBanner[0].btn}
