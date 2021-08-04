@@ -2,8 +2,6 @@ import React from "react";
 import IconAvatar from "../../assets/img/avatar.png";
 import IconLinkedin from "../../assets/img/linkedin.svg";
 
-
-
 export default function BigCard(props) {
   const [marginTopText, setMarginTopText] = React.useState("25%")
   const [visibilityLogo, setVisibilityLogo] = React.useState("hidden")
@@ -16,7 +14,7 @@ export default function BigCard(props) {
   const show = () =>{
     setMarginTopText("12%")
     setVisibilityLogo("visible")
-    setTransition("margin 0.8s")
+    setTransition("margin 0.5s")
     setCursor("pointer")
   }
   const dontShow =()=>{
@@ -37,7 +35,7 @@ export default function BigCard(props) {
       className="card"
       onMouseEnter={show}
       onMouseLeave={dontShow}
-      style={{width:"93%", cursor :cursor}}
+      style={{width:"350px", height: '500px' , cursor :cursor}}
     >
       <div className="card-body" style={{ padding: "8%" }}>
         <div className=" row align-items-center">
@@ -61,7 +59,7 @@ export default function BigCard(props) {
         style={{visibility:visibilityLogo}}
         className="d-flex align-items-center "
       >
-        <img width="24%" src={IconLinkedin} />
+        <img width="30%" src={IconLinkedin} />
       </div>
     </div>
   );
