@@ -13,6 +13,7 @@ export default function MyCalendar(params) {
         events={[
           { title: "event 1", date: "2021-08-03" },
           { title: "event 2", date: "2021-08-05" },
+          { title: "Lanzamiento de app", date: "2021-08-06"}
         ]}
       />
     </div>

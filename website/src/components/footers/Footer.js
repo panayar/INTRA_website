@@ -11,7 +11,7 @@ function Footer(props) {
         <div className="col-lg-6 col-md-6 logoText">
           <h3>INTRA</h3>
         </div>
-        <div className="col-lg-6 col-md-6 col-sm-12">
+        <div className="col-lg-6 col-md-6 col-sm-12  largeScreen">
           <div className="row align-right">
             <div className="col-lg-4 col-md-4 col-sm-12 mt-4 ">
               <h5>Support</h5>
@@ -39,6 +39,14 @@ function Footer(props) {
             </div>
           </div>
         </div>
+        <div className="col-12 smScreen align-center">
+         <div className="row">
+           <div className="col-4"> <a className="textFooter" href="https://github.com">Contact Us</a> </div>
+           <div className="col-4"> <a className="textFooter" href="https://github.com">Privacy Policy</a> </div>
+           <div className="col-4"> <a className="textFooter" href="https://github.com">About Us</a></div>
+         </div>
+        </div>
+
       </div>
     
       <div className="col-12 text-center mt-4 mb-4 p-2">

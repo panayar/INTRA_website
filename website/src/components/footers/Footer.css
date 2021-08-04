@@ -23,6 +23,15 @@
     cursor: pointer !important ;
 }
 
+
+.largeScreen {
+    display: block;
+}
+
+.smScreen {
+    display: none;
+}
+
 @media screen and (max-width: 764px){
 
     .align-right {
@@ -32,6 +41,14 @@
     .logoText{
         display: block;
         text-align: center !important;
+    }
+
+    .largeScreen {
+        display: none;
+    }
+
+    .smScreen {
+        display: block;
     }
 
 }
