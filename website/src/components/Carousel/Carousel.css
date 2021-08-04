@@ -1,3 +1,40 @@
-@media screen and (max-width: 400px) {
-	
+
+
+.slick-slide > div {
+    display: flex;
+    justify-content: center;
+}
+.imgNext{
+    cursor:pointer;
+    margin-right:7%;
+    text-align: end;
+
+}
+.imgBack{
+    cursor:pointer;
+    margin-right:5%;
+    text-align: end;
+}
+.img{
+    text-align: end
+}
+
+.carousel{
+    margin-top: 3%;
+}
+@media screen and (max-width: 764px){
+    .img{
+        visibility: hidden;
+    }
+    .meetText{
+        display: flex;
+        text-align: end;
+    }
+    .carousel{
+        margin-top: -3%;
+    }
+   .titleCarousel{
+       text-align: end;
+   }
+    
 }
