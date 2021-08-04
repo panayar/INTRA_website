@@ -5,6 +5,7 @@
 * npm i bootstrap 
 * npm i react-slick
 * npm install --save @fullcalendar/react @fullcalendar/daygrid
+* npm install react-router-dom
 
 
 And that's all :3 
