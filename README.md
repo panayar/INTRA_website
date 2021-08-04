@@ -1,6 +1,6 @@
 # Intra (website) 
 
-> In order to run the program you will need to run this commands in the terminal first
+> To run the program, you will first need to run these commands in the terminal
 
 * npm i bootstrap 
 * npm i react-slick
