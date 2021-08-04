@@ -37,7 +37,7 @@ export default function BigCard(props) {
       className="card"
       onMouseEnter={show}
       onMouseLeave={dontShow}
-      style={{width:"93%", cursor :cursor}}
+      style={{width:"80%", cursor :cursor}}
     >
       <div className="card-body" style={{ padding: "8%" }}>
         <div className=" row align-items-center">

@@ -10,9 +10,8 @@ import Cardsm from "../components/Cards/SmallCard";
 import BigBanner from "../components/banners/BigBanner";
 import BannerLogos from "../components/banners/BannerLogos";
 import SmallBanner from "../components/banners/SmallBanner";
-import BigCard from "../components/Cards/BigCard";
 import Carousel from "../components/Carousel/Carousel";
-
+import MyCalendar from "../components/Calendar/calendar"
 
 import IconLibrary from "./../assets/img/iconOne.svg";
 import IconWallet from "./../assets/img/walletIcon.svg";
@@ -160,6 +159,9 @@ function Main() {
               btnMessage={dataPage.mainPage[0].miniBannerTwo[0].btn}
               btnLink = "https://discord.gg/GeMTVhSB"
             />
+          </div>
+          <div>
+          <MyCalendar/>
           </div>
           <div className="col-12">
             <InfoBanner
