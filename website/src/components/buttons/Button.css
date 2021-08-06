@@ -3,6 +3,12 @@
     src: url(../../fonts/Montserrat-Medium.ttf);
 }
 
+.hideBtn {
+    display: none;
+}
+
+
+
 .intraBigDarkBtn {
     font-family: fontmedium ;
     padding: 10px;
@@ -52,6 +58,26 @@
     border-radius: 6px;
     border: 1px solid #263F56;
     font-size: 13px;
+}
+
+.formBtn {
+    font-family: fontmedium ;
+    padding: auto;
+    width: 100%;
+    height: 50px;
+    background-color: #263F56;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+
+.formBtn:hover {
+    font-family: fontmedium ;
+    transition: 0.3s;
+    background-color: #788897;
+    color: white;
 }
 
 .margin {

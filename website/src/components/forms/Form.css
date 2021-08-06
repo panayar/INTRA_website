@@ -1,0 +1,40 @@
+.containerForm {
+    width: 100%;
+    height: auto;
+    background-color: white;
+
+}
+
+.bgForm {
+    padding: 40px;
+
+}
+
+
+.formBackground {
+    border-radius: 27px;
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    background-color: #E7F6FF;
+}
+
+.bgImage {
+    background-image: url(../../assets/img/bgForm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.opt {
+    width: 100%;
+    background-color: #D0E3ED;
+    border-radius: 10px;
+}
+
+.align-horizontal {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}

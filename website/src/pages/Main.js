@@ -26,9 +26,6 @@ import "../css/global.css";
 
 function Main() {
   return (
-    <div>
-      <Nav />
-      <div className="container">
         <div className="row">
           <div className="col-12">
             <Banner
@@ -37,13 +34,16 @@ function Main() {
               description={
                 dataPage.mainPage[0].firstBanner[0].descriptionBanner
               }
+              contOne = {dataPage.mainPage[0].firstBanner[0].contOne}
+              contTwo = {dataPage.mainPage[0].firstBanner[0].contTwo}
+              contThree = {dataPage.mainPage[0].firstBanner[0].contThree}
             />
           </div>
           <div className="col-12">
             <InfoBanner
               title={dataPage.mainPage[0].secondBanner[0].title}
               img={Mouse}
-              bg="infoLightBg spacing"
+              bg="infoLightBg"
               description={dataPage.mainPage[0].secondBanner[0].description}
               btnStyle="d-none"
               timer="d-none"
@@ -58,6 +58,8 @@ function Main() {
               bg="infoImgBg spacing "
               btnStyle="intraDarkBtn"
               btnMessage="Suscribe"
+              modal="#presaleModal"
+              modalId ="presaleModal"
             />
           </div>
           <div className="col-12">
@@ -100,6 +102,7 @@ function Main() {
               </div>
             </div>
           </div>
+          
           <div className="col-12">
             <BigBanner
               style="row bannerText infoLightBg spacing "
@@ -122,7 +125,7 @@ function Main() {
               }
             />
           </div>
-          <div className="col-12">
+          <div className="col-12 spacing">
             <Carousel/>
           </div>
       
@@ -137,6 +140,8 @@ function Main() {
               btnStyle="intraBigDarkBtn"
               btnMessage={dataPage.mainPage[0].sixBanner[0].btn}
               timer="d-none"
+              modal="#presaleModal"
+              modalId ="presaleModal"
             />
           </div>
           <div className="col-12 align-center spacing">
@@ -163,7 +168,7 @@ function Main() {
               btnLink = "https://discord.gg/GeMTVhSB"
             />
           </div>
-          <div className="col-12 spacing">
+          <div className="col-12 d-lg-block spacing hideCalendar">
           <MyCalendar/>
           </div>
           <div className="col-12">
@@ -175,15 +180,12 @@ function Main() {
               description={dataPage.mainPage[0].sevenBanner[0].description}
               btnMessage={dataPage.mainPage[0].sevenBanner[0].btn}
               timer="d-none"
+              modal="#walletModal"
+              idModal="walletModal"
               btnStyle="intraBigDarkBtn"
             />
           </div>
-          <div className="col-12">
-            <Footer bg="infoLightBg" />
-          </div>
         </div>
-      </div>
-    </div>
   );
 }
 

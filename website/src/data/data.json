@@ -4,7 +4,10 @@
 
         "firstBanner": [{
             "titleBanner": "Animate Your ideas, Design Better Apps",
-            "descriptionBanner": "Make it easy to desing animated and interactive user interfaces, Work done for an upcoming NFT marketplace catered to musicians."
+            "descriptionBanner": "Make it easy to desing animated and interactive user interfaces, Work done for an upcoming NFT marketplace catered to musicians.",
+            "contOne" : "100M",
+            "contTwo" : "250M",
+            "contThree" : "250M"
         }],
 
         "secondBanner": [{
