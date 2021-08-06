@@ -125,6 +125,11 @@
     margin-left: 2%;
     margin-right: 2%;
 }
+
+.roadMap {
+  margin: auto;
+  width: 45%;
+}
  
 @media only screen and (max-width: 990px) {
   .hide {

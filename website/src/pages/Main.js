@@ -15,6 +15,7 @@ import MyCalendar from "../components/Calendar/calendar"
 
 import IconLibrary from "./../assets/img/iconOne.svg";
 import IconWallet from "./../assets/img/walletIcon.svg";
+import IconCalendar from "./../assets/img/Calendar.svg";
 import IconNft from "./../assets/img/nftIcon.svg";
 import IconSwap from "./../assets/img/swapIcon.svg";
 import IconDiscord from "./../assets/img/discord.png";
@@ -26,7 +27,7 @@ import "../css/global.css";
 
 function Main() {
   return (
-        <div className="row">
+        <div className="row"  data-bs-spy="scroll"  data-bs-target="#nav">
           <div className="col-12">
             <Banner
               bg="bg spacing"
@@ -47,6 +48,7 @@ function Main() {
               description={dataPage.mainPage[0].secondBanner[0].description}
               btnStyle="d-none"
               timer="d-none"
+              roadmap="d-none"
               imgspace = "imgSpace"
             />
           </div>
@@ -59,6 +61,7 @@ function Main() {
               btnStyle="intraDarkBtn"
               btnMessage="Suscribe"
               modal="#presaleModal"
+              roadmap="d-none"
               modalId ="presaleModal"
             />
           </div>
@@ -141,6 +144,7 @@ function Main() {
               btnMessage={dataPage.mainPage[0].sixBanner[0].btn}
               timer="d-none"
               modal="#presaleModal"
+              roadmap="d-none"
               modalId ="presaleModal"
             />
           </div>
@@ -171,6 +175,20 @@ function Main() {
           <div className="col-12 d-lg-block spacing hideCalendar">
           <MyCalendar/>
           </div>
+
+          <div className="col-12" id="roadMap">
+            <InfoBanner
+              img={IconCalendar}
+              imgspace = "imgSpace"
+              bg="infoLightBg spacing"
+              subtitle={dataPage.mainPage[0].roadMap[0].title}
+              description={dataPage.mainPage[0].roadMap[0].description}
+              timer="d-none"
+              btnStyle="d-none"
+              roadmap="roadMap"
+            />
+          </div>
+
           <div className="col-12">
             <InfoBanner
               img={Wallet}
@@ -182,6 +200,7 @@ function Main() {
               timer="d-none"
               modal="#walletModal"
               idModal="walletModal"
+              roadmap="d-none"
               btnStyle="intraBigDarkBtn"
             />
           </div>

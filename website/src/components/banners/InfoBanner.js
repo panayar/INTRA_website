@@ -63,6 +63,25 @@ function InfoBanner(props) {
         </section>
       </div>
 
+      <div className={props.roadmap}>
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Mail"
+            aria-label="Mail"
+            aria-describedby="basic-addon2"
+          ></input>
+          <button
+            class=" intraDarkBtn align-center"
+            id="basic-addon2"
+            type="submit"
+          >
+            Enviar
+          </button>
+        </div>
+      </div>
+
       <button
         type="button"
         class={props.btnStyle}
@@ -78,7 +97,6 @@ function InfoBanner(props) {
       <ModalPresale modalId={props.modalId} />
 
       <ModalWallet modal={props.idModal} />
-
     </div>
   );
 }

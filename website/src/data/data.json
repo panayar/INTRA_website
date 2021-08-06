@@ -1,6 +1,10 @@
 {
     "mainPage": [{
 
+        "roadMap" : [{
+           "title": "RoadMap",
+           "description" :"Te enviamos nuestro RoadMap directamente a tu mail, animate!"
+        }],
 
         "firstBanner": [{
             "titleBanner": "Animate Your ideas, Design Better Apps",
