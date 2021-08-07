@@ -28,6 +28,7 @@ function Contact() {
           bg="infoLightBg"
           btnStyle="d-none"
           timer="d-none"
+          roadmap="d-none"
           imgspace="imgSpace"
         />
       </div>
@@ -69,6 +70,7 @@ function Contact() {
           timer="d-none"
           modal="#walletModal"
           idModal="walletModal"
+          roadmap="d-none"
           btnStyle="intraBigDarkBtn"
         />
       </div>

@@ -26,6 +26,7 @@ function Support() {
           img={Mouse}
           bg="infoLightBg"
           btnStyle="d-none"
+          roadmap="d-none"
           timer="d-none"
           imgspace="imgSpace"
         />
@@ -66,6 +67,7 @@ function Support() {
           description={dataPage.mainPage[0].sevenBanner[0].description}
           btnMessage={dataPage.mainPage[0].sevenBanner[0].btn}
           timer="d-none"
+          roadmap="d-none"
           modal="#walletModal"
           idModal="walletModal"
           btnStyle="intraBigDarkBtn"

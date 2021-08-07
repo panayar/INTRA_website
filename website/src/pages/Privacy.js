@@ -26,6 +26,7 @@ function Privacy() {
           img={Mouse}
           bg="infoLightBg"
           btnStyle="d-none"
+          roadmap="d-none"
           timer="d-none"
           imgspace="imgSpace"
         />
@@ -68,6 +69,7 @@ function Privacy() {
           timer="d-none"
           modal="#walletModal"
           idModal="walletModal"
+          roadmap="d-none"
           btnStyle="intraBigDarkBtn"
         />
       </div>
