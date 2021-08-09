@@ -48,7 +48,7 @@ export default function Navigation(props) {
                 </Link>
               </Nav>
               <Nav>
-                <Nav.Link eventKey={2} href="#memes">
+                <Nav.Link eventKey={2}>
                   <button
                     type="button"
                     className="intraDarkBtn"
