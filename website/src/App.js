@@ -6,8 +6,8 @@ import Nav from "./components/Navs/Nav";
 function App() {
   return (
     <div className="container">
-     <Nav modalId ="mainForm" modalBtn="#mainForm"/>
-     <Footer/>
+      <Nav modalId="mainForm" modalBtn="#mainForm" />
+      <Footer />
     </div>
   );
 }

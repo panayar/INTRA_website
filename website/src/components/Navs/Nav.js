@@ -9,12 +9,14 @@ import Main from "../../pages/Main";
 import Support from "../../pages/Support";
 import Privacy from "../../pages/Privacy";
 import ModalWallet from "../Modals/ModalWallet";
+import RoadMap from "../../pages/RoadMap";
+import PreSale from "../../pages/PreSale";
 
 export default function Nav(props) {
   return (
     <div>
       <Router>
-        <nav className="navbar navbar-expand-lg navbar-light" id="nav">
+        <nav className="navbar navbar-expand-lg navbar-light" id="navegation">
           <div className="container">
             <Link className="navbar-brand fontTitle" to="/">
               INTRA
@@ -36,12 +38,12 @@ export default function Nav(props) {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
                 <li className="nav-item">
-                  <Link className="nav-link fontMedium" to="#roadMap">
+                  <Link className="nav-link fontMedium" to="/roadmap">
                     Roadmap
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link fontMedium" to="/">
+                  <Link className="nav-link fontMedium" to="/presale">
                     PreSale
                   </Link>
                 </li>
@@ -85,10 +87,16 @@ export default function Nav(props) {
           <Route path="/privacy">
             <Privacy />
           </Route>
+          <Route path="/roadmap">
+            <RoadMap />
+          </Route>
+          <Route path="/presale">
+            <PreSale />
+          </Route>
         </Switch>
       </Router>
 
-      <ModalWallet modal={props.modalId}  />
+      <ModalWallet modal={props.modalId} />
     </div>
   );
 }
