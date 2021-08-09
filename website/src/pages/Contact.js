@@ -2,10 +2,9 @@ import React from "react";
 import Banner from "../components/banners/Banner";
 import InfoBanner from "../components/banners/InfoBanner";
 import dataPage from "../data/data.json";
-import Accordion from "../components/accordions/Accordion";
-
 import Mouse from "./../assets/img/mouse.svg";
 import Wallet from "./../assets/img/Wallet.png";
+import Acor from "../components/accordions/Acor";
 import "../css/global.css";
 
 function Contact() {
@@ -33,7 +32,7 @@ function Contact() {
         />
       </div>
       <div className="col-12">
-        <Accordion
+        <Acor
           bg="bgAccordion"
           mainTitle={dataPage.ContactAccordion[0].mainTitle}
           titleOne={

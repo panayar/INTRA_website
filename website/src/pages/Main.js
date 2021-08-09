@@ -1,9 +1,7 @@
 import React from "react";
-import Nav from "../components/Navs/Nav";
 import Banner from "../components/banners/Banner";
 import BannerText from "../components/banners/BannerText";
 import InfoBanner from "../components/banners/InfoBanner";
-import Footer from "../components/footers/Footer";
 import Mouse from "./../assets/img/mouse.svg";
 import dataPage from "./../data/data.json";
 import Cardsm from "../components/Cards/SmallCard";
@@ -38,7 +36,7 @@ function Main() {
           contThree={dataPage.mainPage[0].firstBanner[0].contThree}
         />
       </div>
-      <div className="col-12">
+      <div className="col-12" id="presale">
         <InfoBanner
           title={dataPage.mainPage[0].secondBanner[0].title}
           img={Mouse}
@@ -126,7 +124,7 @@ function Main() {
           }
         />
       </div>
-      <div className="col-12 spacing">
+      <div className="col-12 spacing" id="aboutus">
         <Carousel />
       </div>
 
@@ -174,7 +172,7 @@ function Main() {
         <MyCalendar />
       </div>
 
-      <div className="col-12" id="roadmap">
+      <div className="col-12" id="/roadmap">
         <InfoBanner
           img={IconCalendar}
           imgspace="imgSpace"

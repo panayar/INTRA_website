@@ -64,16 +64,16 @@ function InfoBanner(props) {
       </div>
 
       <div className={props.roadmap}>
-        <div class="input-group mb-3">
+        <div className="input-group mb-3">
           <input
             type="text"
-            class="form-control"
+            className="form-control"
             placeholder="Mail"
             aria-label="Mail"
             aria-describedby="basic-addon2"
           ></input>
           <button
-            class=" intraDarkBtn align-center"
+            className="intraDarkBtn align-center"
             id="basic-addon2"
             type="submit"
           >
@@ -84,7 +84,7 @@ function InfoBanner(props) {
 
       <button
         type="button"
-        class={props.btnStyle}
+        className={props.btnStyle}
         data-bs-toggle="modal"
         data-bs-target={props.modal}
       >

@@ -40,7 +40,7 @@ export default function BigCard(props) {
       <div className="card-body" style={{ padding: "8%" }}>
         <div className=" row align-items-center">
           <div className="col-6">
-            <img width="52%" src={IconAvatar} />
+            <img alt={props.alt} width="52%" src={IconAvatar} />
           </div>
           <div className="col-6 alinear-end" >
             <h6 style={{ color: "#DEBFC1" }}>
@@ -59,7 +59,7 @@ export default function BigCard(props) {
         style={{visibility:visibilityLogo}}
         className="d-flex align-items-center "
       >
-        <img width="30%" src={IconLinkedin} />
+        <img alt={props.alt} width="30%" src={IconLinkedin} />
       </div>
     </div>
   );

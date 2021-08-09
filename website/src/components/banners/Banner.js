@@ -3,7 +3,6 @@ import Button from "../buttons/Button";
 import Hand from "../../assets/img/handWithPhone.png";
 import "./Banner.css";
 
-let numInicial = 0;
 function Banner(props) {
   
   const [messageButton, setMessageButton] = React.useState("Buy Token");

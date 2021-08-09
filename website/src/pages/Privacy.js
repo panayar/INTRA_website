@@ -2,10 +2,10 @@ import React from "react";
 import Banner from "../components/banners/Banner";
 import InfoBanner from "../components/banners/InfoBanner";
 import dataPage from "../data/data.json";
-import Accordion from "../components/accordions/Accordion";
 import Mouse from "./../assets/img/mouse.svg";
 import Wallet from "./../assets/img/Wallet.png";
 import "../css/global.css";
+import Acor from "../components/accordions/Acor";
 
 function Privacy() {
   return (
@@ -32,7 +32,7 @@ function Privacy() {
         />
       </div>
       <div className="col-12">
-        <Accordion
+        <Acor
           bg="bgAccordion"
           mainTitle={dataPage.SupportAccordion[0].mainTitle}
           titleOne={

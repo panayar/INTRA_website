@@ -3,8 +3,6 @@ import Banner from "../components/banners/Banner";
 import InfoBanner from "../components/banners/InfoBanner";
 import IconCalendar from "./../assets/img/Calendar.svg";
 import dataPage from "../data/data.json";
-import Mouse from "./../assets/img/mouse.svg";
-import Wallet from "./../assets/img/Wallet.png";
 import "../css/global.css";
 
 function RoadMap() {
