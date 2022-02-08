@@ -16,7 +16,7 @@ export default function Nav(props) {
       <Router>
         <nav className="navbar navbar-expand-lg navbar-light ">
           <div className="container">
-            <Link className="navbar-brand fontTitle" to="/">
+            <Link className="navbar-brand fontTitle" to="/INTRA_website/">
               INTRA
             </Link>
             <button
@@ -76,7 +76,7 @@ export default function Nav(props) {
           <Route path="/contact">
             <Contact />
           </Route>
-          <Route path="/" exact>
+          <Route path="/INTRA_website/" exact>
             <Main />
           </Route>
           <Route path="/support">

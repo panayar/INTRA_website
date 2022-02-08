@@ -8,7 +8,6 @@ function App() {
   return (
     <div className="container">
      <Nav modalId ="mainForm" modalBtn="#mainForm"/>
-     <Main/>
      <Footer/>
     </div>
   );
