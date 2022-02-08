@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/INTRA_website/static/css/main.7846b039.chunk.css",
-    "main.js": "/INTRA_website/static/js/main.24b18dad.chunk.js",
-    "main.js.map": "/INTRA_website/static/js/main.24b18dad.chunk.js.map",
+    "main.js": "/INTRA_website/static/js/main.3f47cc46.chunk.js",
+    "main.js.map": "/INTRA_website/static/js/main.3f47cc46.chunk.js.map",
     "runtime-main.js": "/INTRA_website/static/js/runtime-main.7763e162.js",
     "runtime-main.js.map": "/INTRA_website/static/js/runtime-main.7763e162.js.map",
     "static/css/2.e63ac69d.chunk.css": "/INTRA_website/static/css/2.e63ac69d.chunk.css",
@@ -33,6 +33,6 @@
     "static/css/2.e63ac69d.chunk.css",
     "static/js/2.456365c3.chunk.js",
     "static/css/main.7846b039.chunk.css",
-    "static/js/main.24b18dad.chunk.js"
+    "static/js/main.3f47cc46.chunk.js"
   ]
 }
