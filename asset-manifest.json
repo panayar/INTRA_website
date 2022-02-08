@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/INTRA_website/static/css/main.7846b039.chunk.css",
+    "main.js": "/INTRA_website/static/js/main.4aeb14d8.chunk.js",
+    "main.js.map": "/INTRA_website/static/js/main.4aeb14d8.chunk.js.map",
+    "runtime-main.js": "/INTRA_website/static/js/runtime-main.7763e162.js",
+    "runtime-main.js.map": "/INTRA_website/static/js/runtime-main.7763e162.js.map",
+    "static/css/2.e63ac69d.chunk.css": "/INTRA_website/static/css/2.e63ac69d.chunk.css",
+    "static/js/2.456365c3.chunk.js": "/INTRA_website/static/js/2.456365c3.chunk.js",
+    "static/js/2.456365c3.chunk.js.map": "/INTRA_website/static/js/2.456365c3.chunk.js.map",
+    "index.html": "/INTRA_website/index.html",
+    "static/css/2.e63ac69d.chunk.css.map": "/INTRA_website/static/css/2.e63ac69d.chunk.css.map",
+    "static/css/main.7846b039.chunk.css.map": "/INTRA_website/static/css/main.7846b039.chunk.css.map",
+    "static/js/2.456365c3.chunk.js.LICENSE.txt": "/INTRA_website/static/js/2.456365c3.chunk.js.LICENSE.txt",
+    "static/media/Button.css": "/INTRA_website/static/media/Montserrat-Medium.e2d60bc4.ttf",
+    "static/media/global.css": "/INTRA_website/static/media/Montserrat-SemiBold.fa8441f3.ttf",
+    "static/media/avatar.02846dbf.png": "/INTRA_website/static/media/avatar.02846dbf.png",
+    "static/media/Banner.css": "/INTRA_website/static/media/bgSmBannerTwo.16d3b798.svg",
+    "static/media/Form.css": "/INTRA_website/static/media/bgForm.2c963522.png",
+    "static/media/handWithPhone.33e389ad.png": "/INTRA_website/static/media/handWithPhone.33e389ad.png",
+    "static/media/iconFiesta.19def401.svg": "/INTRA_website/static/media/iconFiesta.19def401.svg",
+    "static/media/iconOne.18005413.svg": "/INTRA_website/static/media/iconOne.18005413.svg",
+    "static/media/linkedin.9e9f280e.svg": "/INTRA_website/static/media/linkedin.9e9f280e.svg",
+    "static/media/mouse.78023ea5.svg": "/INTRA_website/static/media/mouse.78023ea5.svg",
+    "static/media/nftIcon.865458be.svg": "/INTRA_website/static/media/nftIcon.865458be.svg",
+    "static/media/sitMan.81863270.png": "/INTRA_website/static/media/sitMan.81863270.png",
+    "static/media/slick-theme.css": "/INTRA_website/static/media/slick.c94f7671.ttf",
+    "static/media/swapIcon.3254dac8.svg": "/INTRA_website/static/media/swapIcon.3254dac8.svg",
+    "static/media/walletIcon.8007ec05.svg": "/INTRA_website/static/media/walletIcon.8007ec05.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7763e162.js",
+    "static/css/2.e63ac69d.chunk.css",
+    "static/js/2.456365c3.chunk.js",
+    "static/css/main.7846b039.chunk.css",
+    "static/js/main.4aeb14d8.chunk.js"
+  ]
+}
