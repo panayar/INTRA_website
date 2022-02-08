@@ -1,7 +1,6 @@
 # Intra (website) 
 
-> To run the program, you will first need to run these commands in the terminal
+## Preview 
 
-* npm install
+![image](https://user-images.githubusercontent.com/71273441/153044138-b2866694-17c9-4770-b306-ab29a89ac2b4.png)
 
-And that's all :3 
