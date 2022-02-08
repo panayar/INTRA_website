@@ -6,7 +6,7 @@ export default function BuyToken() {
   return (
     <div className="row">
       <div className="col-lg-6 col-md-6 col-sm-12 bgImage">
-        <img src={Thumb} />
+        <img alt="" src={Thumb} />
         <h2>Hola, Bienvenido!</h2>
         <p className="fontMedium">
           Adquirir INTRA coins es muy facil, si estas aqui es porque ya tienes
@@ -24,14 +24,14 @@ export default function BuyToken() {
       <div className="col-lg-6 col-md-6 col-sm-12">
         <Form />
       </div>
-      <div class="form-check " >
+      <div className="form-check " >
         <input
-          class="form-check-input"
+          className="form-check-input"
           type="checkbox"
           value=""
           id="flexCheckDefault"
         ></input>
-        <label class="form-check-label" for="flexCheckDefault">
+        <label className="form-check-label" for="flexCheckDefault">
          <p className="fontMedium">Cancelar operación </p> 
         </label>
       </div>

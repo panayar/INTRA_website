@@ -63,7 +63,7 @@ export default function Nav(props) {
               </ul>
               <button
                 type="button"
-                class="intraDarkBtn"
+                className="intraDarkBtn"
                 data-bs-toggle="modal"
                 data-bs-target={props.modalBtn}
               >

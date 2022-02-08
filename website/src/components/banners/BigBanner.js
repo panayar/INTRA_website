@@ -3,7 +3,7 @@ import "./Banner.css";
 
 function BigBanner(props) {
   return (
-    <div className={props.style}>
+    <div className={props.styles}>
       <div className="col-lg-6 d-lg-block col-md-6 hide" align="center">
         <img alt={props.alt} src={props.img} />
       </div>

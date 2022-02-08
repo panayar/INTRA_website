@@ -5,7 +5,7 @@ const IntraBtn = (props) => {
   return (
     <a href={props.link} target="blank">
       <button
-        className={props.style}
+        className={props.styles}
         onMouseOver={props.function}
         onMouseOut={props.function2}
       >

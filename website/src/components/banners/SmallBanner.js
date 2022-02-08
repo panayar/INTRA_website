@@ -9,7 +9,7 @@ function SmallBanner(props) {
       <br></br>
       <br></br>
       <p className="fontMedium">{props.description}</p>
-      <Button link={props.btnLink} message={props.btnMessage} style={props.btnStyle} />
+      <Button link={props.btnLink} message={props.btnMessage} styles={props.btnStyle} />
     </div>
   );
 }

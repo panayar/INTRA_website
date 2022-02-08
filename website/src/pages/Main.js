@@ -1,9 +1,7 @@
 import React from "react";
-import Nav from "../components/Navs/Nav";
 import Banner from "../components/banners/Banner";
 import BannerText from "../components/banners/BannerText";
 import InfoBanner from "../components/banners/InfoBanner";
-import Footer from "../components/footers/Footer";
 import Mouse from "./../assets/img/mouse.svg";
 import dataPage from "./../data/data.json";
 import Cardsm from "../components/Cards/SmallCard";
@@ -105,7 +103,7 @@ function Main() {
           
           <div className="col-12">
             <BigBanner
-              style="row bannerText infoLightBg spacing "
+              styles="row bannerText infoLightBg spacing "
               img={Man}
               titleOne={dataPage.mainPage[0].fithBanner[0].textOne[0].title}
               descriptionOne={
@@ -130,7 +128,7 @@ function Main() {
           </div>
       
           <div className="col-12">
-            <BannerLogos style="row infoLightBg centrado spacing" />
+            <BannerLogos styles="row infoLightBg centrado spacing" />
           </div>
           <div className="col-12">
             <InfoBanner

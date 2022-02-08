@@ -11,7 +11,7 @@ import Computer from "./../../assets/img/bannerLogos/internet.png";
 
 function BannerLogos(props) {
   return (
-    <div className={props.style}>
+    <div className={props.styles}>
       <div className="col-12">
         <h2 className="align-center">Supported Coins</h2>
       </div>

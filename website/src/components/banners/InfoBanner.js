@@ -65,7 +65,7 @@ function InfoBanner(props) {
 
       <button
         type="button"
-        class={props.btnStyle}
+        className={props.btnStyle}
         data-bs-toggle="modal"
         data-bs-target={props.modal}
       >

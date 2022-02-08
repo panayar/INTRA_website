@@ -7,10 +7,10 @@ export default function BigCard(props) {
   const [visibilityLogo, setVisibilityLogo] = React.useState("hidden")
   const [transition, setTransition] = React.useState("hidden")
   const [cursor, setCursor] = React.useState("default")
-//  document.getElementById("contBigCard").style.cursor ;
-//  document.getElementById("logoLinkedin").style.visibility;
-//  document.getElementById("textoUnoDos").style.marginTop;
-//  document.getElementById("textoUnoDos").style.transition;
+//  document.getElementById("contBigCard").styles.cursor ;
+//  document.getElementById("logoLinkedin").styles.visibility;
+//  document.getElementById("textoUnoDos").styles.marginTop;
+//  document.getElementById("textoUnoDos").styles.transition;
   const show = () =>{
     setMarginTopText("12%")
     setVisibilityLogo("visible")
@@ -24,9 +24,9 @@ export default function BigCard(props) {
   }
  
 
-  // const visibility =    document.getElementById("logoLinkedin").style.visibility;
-  // const margin =     document.getElementById("textoUnoDos").style.marginTop;
-  // const timeTransition =    document.getElementById("textoUnoDos").style.transition;
+  // const visibility =    document.getElementById("logoLinkedin").styles.visibility;
+  // const margin =     document.getElementById("textoUnoDos").styles.marginTop;
+  // const timeTransition =    document.getElementById("textoUnoDos").styles.transition;
   
   return (
     <div
@@ -40,7 +40,7 @@ export default function BigCard(props) {
       <div className="card-body" style={{ padding: "8%" }}>
         <div className=" row align-items-center">
           <div className="col-6">
-            <img width="52%" src={IconAvatar} />
+            <img alt="" width="52%" src={IconAvatar} />
           </div>
           <div className="col-6 alinear-end" >
             <h6 style={{ color: "#DEBFC1" }}>
@@ -59,7 +59,7 @@ export default function BigCard(props) {
         style={{visibility:visibilityLogo}}
         className="d-flex align-items-center "
       >
-        <img width="30%" src={IconLinkedin} />
+        <img alt="" width="30%" src={IconLinkedin} />
       </div>
     </div>
   );

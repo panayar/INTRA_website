@@ -65,8 +65,8 @@ export default class MyCarousel extends Component {
             <h3>Meet Our Teem</h3>
           </div>
           <div className="col-3 img">
-            <img className="imgBack" onClick={this.previous} src={Back} />
-            <img className="imgNext" onClick={this.next} src={Next} />
+            <img alt="" className="imgBack" onClick={this.previous} src={Back} />
+            <img alt="" className="imgNext" onClick={this.next} src={Next} />
           </div>
         </div>
         <div className="carousel">

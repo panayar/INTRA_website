@@ -3,7 +3,7 @@ import Button from "../buttons/Button";
 import Hand from "../../assets/img/handWithPhone.png";
 import "./Banner.css";
 
-let numInicial = 0;
+// let numInicial = 0;
 function Banner(props) {
   
   const [messageButton, setMessageButton] = React.useState("Buy Token");
@@ -29,8 +29,8 @@ function Banner(props) {
           <br></br>
           <div className="row ">
             <div className="col-12 fontSemiBold">
-              <Button style="intraLightBtn fourth space"  function2={changeMessage2} function={changeMessage} message={messageButton} />
-              <Button message="See Whitepaper" style="intraDarkBtn " />
+              <Button styles="intraLightBtn fourth space"  function2={changeMessage2} function={changeMessage} message={messageButton} />
+              <Button message="See Whitepaper" styles="intraDarkBtn " />
             </div>
           </div>
           <br></br>

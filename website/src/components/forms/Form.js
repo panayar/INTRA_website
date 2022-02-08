@@ -11,15 +11,15 @@ export default function Form() {
           <h6>Buy</h6>
           <hr></hr>
           <br></br>
-          <div class="input-group">
+          <div className="input-group">
             <input
               type="text"
-              class="form-control fontInput"
+              className="form-control fontInput"
               placeholder="Cantidad"
               aria-label="Dollar amount (with dot and two decimal places)"
             ></input>
-            <span class="input-group-text fontInput p-3">INTRA</span>
-            <span class="input-group-text  fontInput p-3">INT</span>
+            <span className="input-group-text fontInput p-3">INTRA</span>
+            <span className="input-group-text  fontInput p-3">INT</span>
           </div>
         </div>
       </div>
